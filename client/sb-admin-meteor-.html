@@ -4,15 +4,14 @@
 
 <body>
   
-{{> hello}}
+<div id="wrapper">
+    {{> header}}
+</div>
 
 </body>
 
-<template name="hello">
-    <div id="wrapper">
-
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+ <template name="header">
+             <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -341,6 +340,13 @@
             </div>
             <!-- /.navbar-static-side -->
         </nav>
+        </template>
+        <!-- Navigation -->
+       
+
+<template name="hello">
+    <div id="wrapper">
+       
 
         <div id="page-wrapper">
             <div class="row">
