@@ -25,12 +25,12 @@ function drawChart(){
                 data: [28, 48, 40, 19, 86, 27, 90]
             }
         ]
-        
+         
     };
-     var ctx = $("#myChart").get(0).getContext("2d");
-     var myLineChart = new Chart(ctx);
-     new Chart(ctx).Line(data);
-
+    
+        var ctx = $("#myChart").get(0).getContext("2d");
+        var myLineChart = new Chart(ctx);
+        new Chart(ctx).Line(data);
 };
 
 Template.lineChart.rendered = function(){ drawChart(); };
