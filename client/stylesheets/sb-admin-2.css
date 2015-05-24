@@ -214,6 +214,10 @@ body {
     margin-top: 25%;
 }
 
+canvas#myChart{
+    width: 100% !important;
+    height: 100% !important;
+}
 .flot-chart {
     display: block;
     height: 400px;
