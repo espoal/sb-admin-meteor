@@ -1,0 +1,38 @@
+<head>
+  <title>sb-admin-meteor-</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="top">
+           <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+               {{> headerBrand}}
+               {{> topRightLinks}}
+               {{> sideBar}}
+           </nav>
+        </div><!-- top -->
+        <div id="page-wrapper">
+            <div class="row">{{> dashboardTittle}}</div><!-- tittle -->
+            <div class="row">
+                {{> dashboardSmallBox}} 
+                {{> dashboardSmallBox}}
+                {{> dashboardSmallBox}}
+                {{> dashboardSmallBox}} 
+            </div><!-- small boxes -->
+            <div class="row">
+                <div class="col-lg-8">
+                   {{> chartPanel}}
+                   {{> chartPanel}}
+                </div>
+                <div class="col-lg-4">
+                 {{> notificationPanel}}
+                 {{> donutChart}}
+                 {{> sideChat}}
+                </div>
+            </div><!-- charts -->
+        </div><!-- page wrapper -->
+    </div><!-- wrapper -->
+</body>
+
+
+
