@@ -1,36 +1,31 @@
-<template name="dashboard">
-
+<template name="mainLayout">
 
     <div id="wrapper">
         <div id="top">
-           <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-               {{> headerBrand}}
-               {{> topRightLinks}}
-               {{> sideBar}}
-           </nav>
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                {{> headerBrand}}
+                {{> topRightLinks}}
+                {{> sideBar}}
+            </nav>
         </div><!-- top -->
         <div id="page-wrapper">
             <div class="row">{{> dashboardTittle}}</div><!-- tittle -->
             <div class="row">
-                {{> dashboardSmallBox}} 
                 {{> dashboardSmallBox}}
                 {{> dashboardSmallBox}}
-                {{> dashboardSmallBox}} 
+                {{> dashboardSmallBox}}
+                {{> dashboardSmallBox}}
             </div><!-- small boxes -->
             <div class="row">
                 <div class="col-lg-8">
-                   {{> chartPanel}}
-                   {{> chartPanel}}
+                    this is prova
                 </div>
                 <div class="col-lg-4">
-                 {{> notificationPanel}}
-                 {{> donutChart}}
-                 {{> sideChat}}
+                    {{> notificationPanel}}
+                    {{> donutChart}}
+                    {{> sideChat}}
                 </div>
             </div><!-- charts -->
         </div><!-- page wrapper -->
     </div><!-- wrapper -->
 </template>
-
-
-
