@@ -1,4 +1,4 @@
-if(Meteor.isClient){
+
     function drawChartDonut(){
                 var data = [
             {
@@ -20,13 +20,14 @@ if(Meteor.isClient){
                 label: "Yellow"
             }
         ]   
-                
+             
+         var ctx = $("#chartDonut").get(0).getContext("2d");
+        var myDoughnutChart = new Chart(ctx);
+        new Chart(ctx).Doughnut(data);
         var ctx = $("#chartDonut").get(0).getContext("2d");
-        var myDoughnutChart = new Chart(ctx[1]).Doughnut(data,options);
         
     };
     
 
     Template.donutChart.rendered = function(){ drawChartDonut();};
     
-}
