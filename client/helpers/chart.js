@@ -28,4 +28,4 @@ var data = {
 
 };
 
-Template.charts.rendered = function(){ drawChart(); };
+Template.lineChart.rendered = function(){ drawChart(); };
