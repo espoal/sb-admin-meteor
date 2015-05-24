@@ -21,11 +21,9 @@
             }
         ]   
              
-         var ctx = $("#chartDonut").get(0).getContext("2d");
+        var ctx = $("#chartDonut").get(0).getContext("2d");
         var myDoughnutChart = new Chart(ctx);
         new Chart(ctx).Doughnut(data);
-        var ctx = $("#chartDonut").get(0).getContext("2d");
-        
     };
     
 
