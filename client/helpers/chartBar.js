@@ -1,7 +1,7 @@
 
     function drawChartBar(){
            var data = {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["2006", "2008", "2010", "2012"],
     datasets: [
         {
             label: "My First dataset",
