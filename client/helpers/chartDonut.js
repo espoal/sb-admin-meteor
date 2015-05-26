@@ -2,22 +2,22 @@
     function drawChartDonut(){
                 var data = [
             {
-                value: 300,
+                value: 20,
                 color:"#F7464A",
                 highlight: "#FF5A5E",
-                label: "Red"
+                label: "Mail Order Sales"
             },
             {
-                value: 50,
+                value: 30,
                 color: "#46BFBD",
                 highlight: "#5AD3D1",
-                label: "Green"
+                label: "In Store Sales"
             },
             {
-                value: 100,
+                value: 12,
                 color: "#FDB45C",
                 highlight: "#FFC870",
-                label: "Yellow"
+                label: "Download Sales"
             }
         ]   
              

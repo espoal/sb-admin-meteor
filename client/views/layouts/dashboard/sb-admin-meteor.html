@@ -1,7 +1,5 @@
 <template name="dashboard">
-
-
-    <div id="wrapper">
+<div id="wrapper">
         <div id="top">
            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
                {{> headerBrand}}
@@ -20,7 +18,8 @@
             <div class="row">
                 <div class="col-lg-8">
                    {{> chartPanel}}
-                   {{> chartPanel}}
+                   <div class="col-lg-4">{{> table}}</div>
+                   <div class="col-lg-8">{{> barChart}}</div>
                 </div>
                 <div class="col-lg-4">
                  {{> notificationPanel}}
@@ -28,6 +27,7 @@
                  {{> sideChat}}
                 </div>
             </div><!-- charts -->
+            
         </div><!-- page wrapper -->
     </div><!-- wrapper -->
 </template>

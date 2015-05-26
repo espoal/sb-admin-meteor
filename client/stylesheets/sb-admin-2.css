@@ -214,7 +214,7 @@ body {
     margin-top: 25%;
 }
 
-canvas#myChart, canvas#chartDonut{
+canvas#myChart, canvas#chartDonut, canvas#chartBar{
     width: 100% !important;
     height: 100% !important;
 }
